@@ -72,6 +72,52 @@ h2 {
 }
 
 /* ************ */
+/* MEDIA */
+/* ************ */
+.media {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.media__image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+}
+.media__body {
+    margin: 0 1rem;
+    color: var(--color-white);
+}
+
+.media__name {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.3rem;
+}
+
+.media__status {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+/* ************ */
+/* AVATAR */
+/* ************ */
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.fa-chevron-left,
+.fa-ellipsis-v {
+    color: var(--color-white);
+}
+
+/* ************ */
 /* ICONS */
 /* ************ */
 .icon-container {
