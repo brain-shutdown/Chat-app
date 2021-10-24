@@ -13,10 +13,61 @@
         <script src="https://kit.fontawesome.com/32d9b730e8.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div style="padding: 2rem; width: 30%; background: black"></div>
-        <!-- Samuel Green Available to Walk That sounds great. I’d be happy with that. Could you send over some pictures of your dog, please? Here are a
-        few pictures. She’s a happy girl! Can you make it? She looks so happy! The time we discussed works. How long shall I take her out for? 30
-        minute walk $29 1 hour walk $49 Type a message… Simple booking Stay in touch with our dog walkers through the chat interface. This makes it
+        <div style="background-color: black; padding: 2rem">
+            <div class="smartphone">
+                <div class="notch"></div>
+                <div class="avatar gradient">
+                    <i class="fas fa-chevron-left"></i>
+                    <div class="media">
+                        <img src="/images/avatar.jpg" alt="An image of Samuel Green" class="media__image" />
+                        <div class="media__body">
+                            <h2 class="media__name">Samuel Green</h2>
+                            <p class="media__status">Available to Walk</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="chat">
+                    <div class="message message--receiver">
+                        <p>That sound great. I'd be happy to discuss more.</p>
+                    </div>
+                    <div class="message message--receiver">
+                        <p>Could you send over some pictures of your dog, please?</p>
+                    </div>
+                    <div class="photos sender">
+                        <img src="images/dog-image-1.jpg" alt="" class="photo" />
+                        <img src="images/dog-image-2.jpg" alt="" class="photo" />
+                        <img src="images/dog-image-3.jpg" alt="" class="photo" />
+                    </div>
+                    <div class="message message--sender sender">
+                        <p>Here are a few pictures. She’s a happy girl!</p>
+                    </div>
+                    <div class="message message--sender sender">
+                        <p>Can you make it?</p>
+                    </div>
+                    <div class="message message--receiver">
+                        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+                    </div>
+                    <div class="avatar gradient-reverse task message--receiver">
+                        <i class="far fa-circle"></i>
+                        <p class="task__text">30 minute walk</p>
+                        <p class="task__price">$29</p>
+                    </div>
+                    <div class="avatar gradient-reverse task message--receiver">
+                        <i class="far fa-circle"></i>
+                        <p class="task__text">1 hour walk</p>
+                        <p class="task__price">$49</p>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input" placeholder="Type a message..." />
+                        <div class="icon-container">
+                            <i class="fas fa-chevron-right fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Simple booking Stay in touch with our dog walkers through the chat interface. This makes it
         easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat. -->
     </body>
 </html>
